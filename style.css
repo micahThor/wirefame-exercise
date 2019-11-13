@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: darkgrey;
+  height: 20vh;
+  margin: 0px 20px 20px 20px;
+  
+}
+
+.nav {
+  padding: 30px 20px 20px 0px;
+}
+
+body {
+  text-align: center;
+  
+}
+
+#hero {
+  text-align: center;
+  width: 80vw;
+  margin: 0px 20px 20px 20px;
+}
+
+.threeBox img {
+  display: inline-block;
+  width: 30vw;
+  padding: 0px 70px 0px 70px;
+  margin: 10px 0px 10px 0px;
+}
+
+#featureSectionBanner {
+  margin: 15px 0px 10px 0px;
+  float: left;
+  margin-left: 9%;
+}
+
+#feature {
+  text-align: left;
+  margin: 0px 10vw 0px 45vw;
+}
+
+footer {
+  background-color: darkgrey;
+  height: 20vh;
+  margin: 20px 20px 20px 20px;
+}
