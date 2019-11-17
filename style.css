@@ -4,46 +4,66 @@
 
 header {
   background-color: darkgrey;
-  height: 20vh;
-  margin: 0px 20px 20px 20px;
-  
+  margin: 0% 0% 2% 0%;
 }
 
-.nav {
-  padding: 30px 20px 20px 0px;
+#navBarItems img {
+  margin: 2% 0 2% 0;
 }
 
 body {
   text-align: center;
-  
 }
 
 #hero {
-  text-align: center;
-  width: 80vw;
-  margin: 0px 20px 20px 20px;
+  margin: 0 auto;
 }
 
-.threeBox img {
+#threebox {
+  margin: 30px 10% 30px 10%;
+}
+
+#threeBox img {
   display: inline-block;
-  width: 30vw;
-  padding: 0px 70px 0px 70px;
-  margin: 10px 0px 10px 0px;
-}
-
-#featureSectionBanner {
-  margin: 15px 0px 10px 0px;
-  float: left;
-  margin-left: 9%;
+  margin: 30px .75% 30px .75%;
 }
 
 #feature {
+  margin: 0 21% 30px 21%;
+  display: inline-block;
+}
+
+#featureSectionBanner {
+  margin: 0 30px 0 0px;
+  float: left;
+}
+
+#feature h3 {
   text-align: left;
-  margin: 0px 10vw 0px 45vw;
+  font-size: 18px;
+  margin-bottom: 1%;
+}
+
+#feature p {
+  height: 300px;
+  text-align: left;
+  font-size: 16px;
+  margin: 0 0 0 0;
+  overflow: scroll;
+}
+
+#feature #buttonCallToAction {
+  margin-top: 2%;
+  float: left;
+  border-radius: 5px;
+}
+
+#feature #buttonCallToAction:hover {
+  outline: 1px solid;
 }
 
 footer {
+  height: 100px;
   background-color: darkgrey;
-  height: 20vh;
-  margin: 20px 20px 20px 20px;
+  width: 100%;
 }
